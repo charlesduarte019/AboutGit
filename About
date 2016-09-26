@@ -1,0 +1,37 @@
+Criar Repositorio
+
+- Entra na pasta do projeto
+
+- git init
+- git add -A (Para adicionar todos os arquivos
+- git add arquivo.txt (Para adicionar somente aquele arquivo)
+- git commit -m "mensagem"
+- git remote add origin link (link do repositorio git)
+- git push origin master
+
+Criando e Acessando Branch
+
+- git branch branch (Nome do Branch) (Criando Branch)
+- git checkout branch (Entrar no branch, acessar)
+
+Enviando Arquivo para o Branch
+
+- git add -A
+- git commit -m "msg"
+- git push origin branch (Empurrar para o branch)
+
+Merge
+
+- git checkout master (Acessar o branch master para o merge)
+- git merge branch
+
+Release (Se cria quando entrega o sistema ou projeto para o cliente)
+
+- git tag v1.0.0 (Criando tag sem anotação)
+- git tag -a v1.0.0 -m "msg" (Criando tag com anotação)
+- git push origin v1.0.0 (Para enviar a tag)
+- git tag -l (Para mostar as tags
+- git show v1.0.0 (Detalhe sobre a tag)
+
+
+
