@@ -35,19 +35,19 @@
 *  **Requisição**
 
     ```json
-        {
-            "usuario": "usuario",
-            "senha": "usuario123"
-        }
+    {
+    	"usuario": "usuario",
+    	"senha": "usuario123"
+    }
     ```
 * **Resposta com Sucesso:**
   
   * **Code:** 200 <br />
     **Content:**
     ```json
-        {
-            'id': 12
-        }
+    {
+    	"id": 12
+    }
     ```
  
 * **Resposta com Erro:**
