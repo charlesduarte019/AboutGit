@@ -36,8 +36,8 @@
 
     ```json
     {
-    	"usuario": "usuario",
-    	"senha": "usuario123"
+       "usuario": "usuario",
+       "senha": "usuario123"
     }
     ```
 * **Resposta com Sucesso:**
@@ -46,19 +46,29 @@
     **Content:**
     ```json
     {
-    	"id": 12
+       "id": 12
     }
     ```
  
 * **Resposta com Erro:**
 
   * **Code:** 404 NO CONTENT <br />
-    **Content:** `{ error : "Email Invalid" }`
+    **Content:**
+    ```json
+    {
+       "error": "Email Invalid"
+    }
+    ```
 
   OU
 
   * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ error : "Log in" }`
+    **Content:**
+    ```json
+    {
+       "error": "Log in"
+    }
+    ```
 
 * **Notas:**
 
