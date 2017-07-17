@@ -205,8 +205,8 @@
     {
         "id": 1,
         "nome": "site",
-        "cidade_nome": "cidade"
-        "cidade_uf": "uf"
+        "cidade_nome": "cidade",
+        "cidade_uf": "uf",
         "peso": 0.1,
         "conf": "{}",
         "latitude": -1.123456,
