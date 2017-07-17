@@ -86,15 +86,15 @@
 
 *  **Parâmetro**
 
-        |NOME|TIPO|MÍNIMO|MÁXIMO|FORMATAÇÃO|OBRIGATÓRIO|DESCRIÇÃO|
-        |----|:--:|:----:|:----:|:--------:|:---------:|---------|
-        limite|Integer|-|-|-|Não|Limite máximo de registros a serem retornados.|
-        deslocamento|Integer|-|-|-|Não|Quantos registros devem ser ignorados a partir do início.|
-        ordem|String|-|-|-|Não|Registro por qual será ordenado os dados.|
-        ordenador|String|-|-|-|Não|Indica se a ordenação será crescente ou decrescente(ASC OU DESC).|
-        filtro|JSON|-|-|-|Não|Filtros por valor de deteminado atributo.|
-        filtro.id|Integer|-|-|-|Não|Filtros por valor do ID da Forma de Pagamento.|
-        filtro.nome|String|3|255|-|Não| Filtros por valor Nome da Forma de Pagamento.|
+    |NOME|TIPO|MÍNIMO|MÁXIMO|FORMATAÇÃO|OBRIGATÓRIO|DESCRIÇÃO|
+    |----|:--:|:----:|:----:|:--------:|:---------:|---------|
+    limite|Integer|-|-|-|Não|Limite máximo de registros a serem retornados.|
+    deslocamento|Integer|-|-|-|Não|Quantos registros devem ser ignorados a partir do início.|
+    ordem|String|-|-|-|Não|Registro por qual será ordenado os dados.|
+    ordenador|String|-|-|-|Não|Indica se a ordenação será crescente ou decrescente(ASC OU DESC).|
+    filtro|JSON|-|-|-|Não|Filtros por valor de deteminado atributo.|
+    filtro.id|Integer|-|-|-|Não|Filtros por valor do ID da Forma de Pagamento.|
+    filtro.nome|String|3|255|-|Não| Filtros por valor Nome da Forma de Pagamento.|
 
 * **Resposta com Sucesso:**
   
@@ -142,15 +142,15 @@
 
 *  **Parâmetro**
 
-        |NOME|TIPO|MÍNIMO|MÁXIMO|FORMATAÇÃO|OBRIGATÓRIO|DESCRIÇÃO|
-        |----|:--:|:----:|:----:|:--------:|:---------:|---------|
-        limite|Integer|-|-|-|Não|Limite máximo de registros a serem retornados.|
-        deslocamento|Integer|-|-|-|Não|Quantos registros devem ser ignorados a partir do início.|
-        ordem|String|-|-|-|Não|Registro por qual será ordenado os dados.|
-        ordenador|String|-|-|-|Não|Indica se a ordenação será crescente ou decrescente(ASC OU DESC).|
-        filtro|JSON|-|-|-|Não|Filtros por valor de deteminado atributo.|
-        filtro.id|Integer|-|-|-|Não|Filtros por valor do ID da Forma de Pagamento.|
-        filtro.nome|String|3|255|-|Não| Filtros por valor Nome da Forma de Pagamento.|
+    |NOME|TIPO|MÍNIMO|MÁXIMO|FORMATAÇÃO|OBRIGATÓRIO|DESCRIÇÃO|
+    |----|:--:|:----:|:----:|:--------:|:---------:|---------|
+    limite|Integer|-|-|-|Não|Limite máximo de registros a serem retornados.|
+    deslocamento|Integer|-|-|-|Não|Quantos registros devem ser ignorados a partir do início.|
+    ordem|String|-|-|-|Não|Registro por qual será ordenado os dados.|
+    ordenador|String|-|-|-|Não|Indica se a ordenação será crescente ou decrescente(ASC OU DESC).|
+    filtro|JSON|-|-|-|Não|Filtros por valor de deteminado atributo.|
+    filtro.id|Integer|-|-|-|Não|Filtros por valor do ID da Forma de Pagamento.|
+    filtro.nome|String|3|255|-|Não| Filtros por valor Nome da Forma de Pagamento.|
 
 * **Resposta com Sucesso:**
   
@@ -193,9 +193,9 @@
 
 *  **Parâmetro**
 
-        |NOME|TIPO|MÍNIMO|MÁXIMO|FORMATAÇÃO|OBRIGATÓRIO|DESCRIÇÃO|
-        |----|:--:|:----:|:----:|:--------:|:---------:|---------|
-        {id}|Integer|-|-|-|Sim|ID do Site, passado na URL.|
+    |NOME|TIPO|MÍNIMO|MÁXIMO|FORMATAÇÃO|OBRIGATÓRIO|DESCRIÇÃO|
+    |----|:--:|:----:|:----:|:--------:|:---------:|---------|
+    {id}|Integer|-|-|-|Sim|ID do Site, passado na URL.|
 
 * **Resposta com Sucesso:**
   
@@ -234,9 +234,9 @@
 
 *  **Parâmetro**
 
-        |NOME|TIPO|MÍNIMO|MÁXIMO|FORMATAÇÃO|OBRIGATÓRIO|DESCRIÇÃO|
-        |----|:--:|:----:|:----:|:--------:|:---------:|---------|
-        {id}|Integer|-|-|-|Sim|ID do Site, passado na URL.|
+    |NOME|TIPO|MÍNIMO|MÁXIMO|FORMATAÇÃO|OBRIGATÓRIO|DESCRIÇÃO|
+    |----|:--:|:----:|:----:|:--------:|:---------:|---------|
+    {id}|Integer|-|-|-|Sim|ID do Site, passado na URL.|
 
 * **Resposta com Sucesso:**
   
@@ -275,16 +275,16 @@
 
 *  **Parâmetro**
 
-        |NOME|TIPO|MÍNIMO|MÁXIMO|FORMATAÇÃO|OBRIGATÓRIO|DESCRIÇÃO|
-        |----|:--:|:----:|:----:|:--------:|:---------:|---------|
-        {id}|Integer|-|-|-|Sim|ID do Site, passado na URL.|
-        nome|String|3|50|-|Sim|<_Descrição_>.|
-        base_cidade_id|Integer|-|-|-|Sim|<_Descrição_>.|
-        peso|Double|-|-|-|Sim|<_Descrição_>.|
-        conf|Json|-|-|-|Não|<_Descrição_>.|
-        latitude|Numeric|-|-|-|Sim|<_Descrição_>.|
-        longitude|Numeric|-|-|-|Sim|<_Descrição_>.|
-        observação|Json|-|-|-|Não|<_Descrição_>.|
+    |NOME|TIPO|MÍNIMO|MÁXIMO|FORMATAÇÃO|OBRIGATÓRIO|DESCRIÇÃO|
+    |----|:--:|:----:|:----:|:--------:|:---------:|---------|
+    {id}|Integer|-|-|-|Sim|ID do Site, passado na URL.|
+    nome|String|3|50|-|Sim|<_Descrição_>.|
+    base_cidade_id|Integer|-|-|-|Sim|<_Descrição_>.|
+    peso|Double|-|-|-|Sim|<_Descrição_>.|
+    conf|Json|-|-|-|Não|<_Descrição_>.|
+    latitude|Numeric|-|-|-|Sim|<_Descrição_>.|
+    longitude|Numeric|-|-|-|Sim|<_Descrição_>.|
+    observação|Json|-|-|-|Não|<_Descrição_>.|
 
 * **Resposta com Sucesso:**
   
@@ -320,9 +320,9 @@
 
 *  **Parâmetro**
 
-        |NOME|TIPO|MÍNIMO|MÁXIMO|FORMATAÇÃO|OBRIGATÓRIO|DESCRIÇÃO|
-        |----|:--:|:----:|:----:|:--------:|:---------:|---------|
-        {id}|Integer|-|-|-|Sim|ID do Site, passado na URL.|
+    |NOME|TIPO|MÍNIMO|MÁXIMO|FORMATAÇÃO|OBRIGATÓRIO|DESCRIÇÃO|
+    |----|:--:|:----:|:----:|:--------:|:---------:|---------|
+    {id}|Integer|-|-|-|Sim|ID do Site, passado na URL.|
 
 * **Resposta com Sucesso:**
   
