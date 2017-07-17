@@ -72,15 +72,9 @@
     **Código:** 401 UNAUTHORIZED <br />
     **Conteúdo:** `{ "DONT_HAVE_PERMISSION": "Você não tem permissão para acessar essa ação!" }`
 
-* **Notas:**
-
-  <_Caso tenha alguma observação sobre o modulo._>
-
 ### **Listar Todos os Sites**
 
    Retorna todos os Sites cadastradas no sistema. Por padrão será retornado um limite máximo de 15 registros. Para retornar uma quantidade diferente, o limite deve ser enviado na requisição. Caso limite seja igual a 0 (zero) será retornado todos os registros. 
-
-**Observações:** *Se não for passado nenhum parâmetro de paginação(limite, deslocamento, ordem e ordenador) ou filtro irá retornar todos os registros.*
 
 * **URL**
 
@@ -113,8 +107,8 @@
             {
                 "id": 1,
                 "nome": "site",
-                "cidade_nome": "cidade"
-                "cidade_uf": "uf"
+                "cidade_nome": "cidade",
+                "cidade_uf": "uf",
                 "peso": 0.1,
                 "conf": "{}",
                 "latitude": -1.123456,
@@ -132,13 +126,11 @@
 
 * **Notas:**
 
-  <_Caso tenha alguma observação sobre o modulo._>
+  *Se não for passado nenhum parâmetro de paginação(limite, deslocamento, ordem e ordenador) ou filtro irá retornar todos os registros.*
 
 ### **Listar Informações Basica de Todos os Sites**
 
    Retorna as informações básicas de todos os Sites cadastradas no sistema. Por padrão será retornado um limite máximo de 15 registros. Para retornar uma quantidade diferente, o limite deve ser enviado na requisição. Caso limite seja igual a 0 (zero) será retornado todos os registros. 
-
-**Observações:** *Se não for passado nenhum parâmetro de paginação(limite, deslocamento, ordem e ordenador) ou filtro irá retornar todos os registros.*
 
 * **URL**
 
@@ -185,7 +177,7 @@
 
 * **Notas:**
 
-  <_Caso tenha alguma observação sobre o modulo._>
+  *Se não for passado nenhum parâmetro de paginação(limite, deslocamento, ordem e ordenador) ou filtro irá retornar todos os registros.*
 
 ### **Buscar Site**
 
@@ -228,11 +220,7 @@
     **Código:** 401 UNAUTHORIZED <br />
     **Conteúdo:** `{ "DONT_HAVE_PERMISSION": "Você não tem permissão para acessar essa ação!" }`
 
-* **Notas:**
-
-  <_Caso tenha alguma observação sobre o modulo._>
-
-  ### **Buscar Site**
+### **Buscar Site**
 
    Busca os dados de um determinado Site pelo ID. 
 
@@ -273,10 +261,6 @@
     **Código:** 401 UNAUTHORIZED <br />
     **Conteúdo:** `{ "DONT_HAVE_PERMISSION": "Você não tem permissão para acessar essa ação!" }`
 
-* **Notas:**
-
-  <_Caso tenha alguma observação sobre o modulo._>
-
 ### **Editar Site**
 
     Edita os dados de um Site pelo ID.
@@ -290,8 +274,6 @@
 * **Método:** `PUT`
 
 *  **Parâmetro**
-
-    **Observações:** *Passar somente os atributos que serão atualizados.*
 
         |NOME|TIPO|MÍNIMO|MÁXIMO|FORMATAÇÃO|OBRIGATÓRIO|DESCRIÇÃO|
         |----|:--:|:----:|:----:|:--------:|:---------:|---------|
@@ -321,7 +303,7 @@
 
 * **Notas:**
 
-  <_Caso tenha alguma observação sobre o modulo._>
+  *Passar somente os atributos que serão atualizados.*
 
 
 ### **Excluir Site**
@@ -338,8 +320,6 @@
 
 *  **Parâmetro**
 
-    **Observações:** *Passar somente os atributos que serão atualizados.*
-
         |NOME|TIPO|MÍNIMO|MÁXIMO|FORMATAÇÃO|OBRIGATÓRIO|DESCRIÇÃO|
         |----|:--:|:----:|:----:|:--------:|:---------:|---------|
         {id}|Integer|-|-|-|Sim|ID do Site, passado na URL.|
@@ -347,7 +327,7 @@
 * **Resposta com Sucesso:**
   
     **Código:** 204 NO CONTENT <br />
-    **Conteúdo:**``
+    **Conteúdo:**` `
  
 * **Resposta com Erro:**
 
@@ -356,4 +336,4 @@
 
 * **Notas:**
 
-  <_Caso tenha alguma observação sobre o modulo._>
+  *Passar somente os atributos que serão atualizados.*
