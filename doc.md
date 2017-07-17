@@ -6,7 +6,7 @@
 * [Site](#site)
 	* [Adicionar Site](#adicionar-site)
  	* [Listar Todos os Sites](#listar-todos-os-sites)
- 	* [Listar Informações Basica de Todos os Sites](#listar-informacoes-basica-de-todos-os-sites)
+ 	* [Listar Informações Basica de Todos os Sites](#listar-informações-basica-de-todos-os-sites)
  	* [Buscar Site](#buscar-site)
  	* [Editar Site](#editar-site)
  	* [Excluir Site](#excluir-site)
