@@ -5,8 +5,8 @@
 
 * [Site](#site)
 	* [Adicionar Site](#adicionar-site)
- 	* [Listar Todos os Sites](#listar-todos-os-site)
- 	* [Listar Informações Basica de Todos os Sites](#listar-informacoes-basicas-de-todos-os-site)
+ 	* [Listar Todos os Sites](#listar-todos-os-sites)
+ 	* [Listar Informações Basica de Todos os Sites](#listar-informacoes-basicas-de-todos-os-sites)
  	* [Buscar Site](#buscar-site)
  	* [Editar Site](#editar-site)
  	* [Excluir Site](#excluir-site)
@@ -258,8 +258,8 @@
     {
         "id": 1,
         "nome": "site",
-        "cidade_nome": "cidade"
-        "cidade_uf": "uf"
+        "cidade_nome": "cidade",
+        "cidade_uf": "uf",
         "peso": 0.1,
         "conf": "{}",
         "latitude": -1.123456,
