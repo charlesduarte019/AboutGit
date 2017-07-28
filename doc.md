@@ -72,7 +72,7 @@
     **Código:** 401 UNAUTHORIZED <br />
     **Conteúdo:** `{ "DONT_HAVE_PERMISSION": "Você não tem permissão para acessar essa ação!" }`
 
-<h1>Teste</h1>
+<h1 style="color=red">Teste</h1>
 
 >***Notas:*** <br/>
 >*_raumil_network_host_id_* se refere ao Host, cuja documentação poderá ser encontrada em Host.md
