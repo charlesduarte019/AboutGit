@@ -72,6 +72,10 @@
     **Código:** 401 UNAUTHORIZED <br />
     **Conteúdo:** `{ "DONT_HAVE_PERMISSION": "Você não tem permissão para acessar essa ação!" }`
 
+>***Notas:*** <br/>
+>*_raumil_network_host_id_* se refere ao Host, cuja documentação poderá ser encontrada em Host.md
+>*_username_* e _password_ só é utilizado na versão 3 do SNMP.
+
 ### **Listar Todos os Sites**
 
    Retorna todos os Sites cadastradas no sistema. Por padrão será retornado um limite máximo de 15 registros. Para retornar uma quantidade diferente, o limite deve ser enviado na requisição. Caso limite seja igual a 0 (zero) será retornado todos os registros. 
