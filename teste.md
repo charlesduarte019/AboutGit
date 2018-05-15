@@ -1,4 +1,1 @@
-TESTE
-===
-
-* [my link text](http://www.google.com){:target="_blank"}
+[my link text](http://www.google.com){:target="_blank"}
