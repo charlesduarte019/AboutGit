@@ -1,3 +1,1 @@
-<a href="https://google.com" target="_blank">New Tab</a>
-
-[Google](https://google.com" target="_blank)
+[Blog do Da2k](https://blog.da2k.com.br "Clique e acesse agora!")
