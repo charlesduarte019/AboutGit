@@ -1,1 +1,1 @@
-[Link](../doc.md#site)
+[Link](./doc.md#site)
